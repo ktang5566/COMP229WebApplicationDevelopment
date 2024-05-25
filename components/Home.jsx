@@ -1,3 +1,4 @@
+//home.jsx Kang Yee Tang 301328548 24-May-2024
 import { Link } from 'react-router-dom';
 import '../src/home.css'
 import hire from '../src/assets/hire.png';
@@ -13,7 +14,7 @@ export default function Home() {
                               and how we can collaborate to make a positive difference through technology.</p>
                          <br/>
                          <p>Know more about me!</p>
-                         <Link to={"/about"}><img src={hire} alt="Hire me" width="100px" height="100px"/></Link>
+                         <Link to={"/about"}><button className="btn"><img src={hire} alt="Hire me" width="100px" height="100px"/></button></Link>
 
                     </div>
 

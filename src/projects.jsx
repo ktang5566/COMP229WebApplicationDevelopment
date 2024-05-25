@@ -1,3 +1,4 @@
+//projects.jsx Kang Yee Tang 301328548 24-May-2024
 import project1 from '../src/assets/WebDevelopment.jpg';
 import project2 from '../src/assets/PhotoGallery.jpg';
 import project3 from '../src/assets/BugSmasher.jpg';

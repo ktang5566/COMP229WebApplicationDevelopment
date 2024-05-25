@@ -1,5 +1,5 @@
+//about.jsx Kang Yee Tang 301328548 24-May-2024
 import BBG from '../src/assets/BBG.png';
-//import { Link } from 'react-router-dom';
 import '../src/index.css'
 import '../src/about.css'
 export default function About() {

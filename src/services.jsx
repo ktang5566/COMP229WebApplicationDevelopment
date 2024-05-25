@@ -1,8 +1,8 @@
+//services.jsx Kang Yee Tang 301328548 24-May-2024
 import service1 from '../src/assets/service1.jpg';
 import service2 from '../src/assets/service2.jpg';
 import service3 from '../src/assets/service3.jpg';
 import service4 from '../src/assets/service4.jpg';
-import { Link } from 'react-router-dom';
 import '../src/index.css'
 import '../src/services.css'
 export default function Project() {
@@ -22,7 +22,7 @@ export default function Project() {
               </div>
 
               <div className={"serviceBar"}>
-                  <span className={"service"}>Programming</span><br/>
+                  <span className={"service"}>General Programming</span><br/>
                   <img src={service2} alt="service2" className="serviceImg"/>
               </div>
 
