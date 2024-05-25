@@ -11,11 +11,11 @@ export default function Layout() {
 
   <nav className={"navbar"}>
    <ul>
-    <li><a href ={"/"} className={"nav"}> Home Page</a></li>
-    <li><a href ={"/about"} className={"nav"}>About Me</a></li>
-    <li><a href ={"/projects"} className={"nav"}>Projects</a></li>
-    <li><a href ={"/services"} className={"nav"}>Services</a></li>
-    <li><a href ={"/contact"} className={"nav"}>Contact</a></li>
+    <li><Link to={"/"} className={"nav"}> Home Page</Link></li>
+    <li><Link to={"/about"} className={"nav"}>About Me</Link></li>
+    <li><Link to={"/projects"} className={"nav"}>Projects</Link></li>
+    <li><Link to={"/services"} className={"nav"}>Services</Link></li>
+    <li><Link to={"/contact"} className={"nav"}>Contact</Link></li>
    </ul>
   </nav>
 
