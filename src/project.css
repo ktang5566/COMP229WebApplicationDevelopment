@@ -1,0 +1,16 @@
+.projectBar{
+    display: block;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: #A1D3A2;
+}
+
+.projectTitle {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.projectDesc {
+    margin: 10px;
+}

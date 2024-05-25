@@ -1,0 +1,31 @@
+.serviceDesc {
+    color: black;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.serviceBars{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.serviceBar{
+    margin: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: #A1D3A2;
+}
+
+.service{
+    font-size:1rem;
+    font-weight: 500;
+}
+
+.serviceImg{
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    margin-top: 0.5rem;
+}
